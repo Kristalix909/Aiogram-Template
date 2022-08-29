@@ -1,2 +1,2 @@
 # Aiogram-Template
-ТГ: @KRISTALIK_999
+По вапросам тг: @KRISTALIK_999
