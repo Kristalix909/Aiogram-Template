@@ -13,7 +13,7 @@ async def bot_start(message: types.Message):
     try:
         db.add_user(id=message.from_user.id,
                     name=name)
-        await message.answer(f"Xush kelibsiz! {name}")
+        await message.answer(f"Добро пожаловать! {name}")
         # Adminga xabar beramiz
         count = db.count_users()[0]
         msg = f"{message.from_user.full_name} добавлен в базу.\nВ базе {count} участников."
