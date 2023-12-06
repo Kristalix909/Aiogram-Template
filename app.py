@@ -1,4 +1,5 @@
-from aiogram import executor
+import aiogram 
+from aiogram.utils import executor
 
 from loader import dp, db
 import middlewares, filters, handlers
